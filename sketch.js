@@ -7,10 +7,10 @@ function preload() {
     //load the images here
     backgroundImg = loadImage("images/garden.png");
     catImg1=loadImage("images/cat1.png");
-    catImg2=loadImage("images/cat2.png ","images/cat3.png");
+    catImg2=loadAnimation("images/cat2.png","images/cat3.png");
     catImg4=loadImage("images/cat4.png");
     mouseImg1=loadImage("images/mouse1.png");
-    mouseImg2=loadImage("images/mouse2.png ","images/mouse3.png");
+    mouseImg2=loadAnimation("images/mouse2.png","images/mouse3.png");
     mouseImg4=loadImage("images/mouse4.png");
 }
 
